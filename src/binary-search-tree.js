@@ -108,17 +108,6 @@ class BinarySearchTree {
   }
 }
 
-const tree = new BinarySearchTree();
-tree.add(2);
-tree.add(7);
-tree.add(1);
-tree.add(8);
-tree.add(4);
-tree.add(32);
-tree.add(12);
-tree.add(14);
-console.log(tree.root(), tree.has(8));
-
 module.exports = {
   BinarySearchTree,
 };
